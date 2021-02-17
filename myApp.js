@@ -7,7 +7,8 @@ app.get("/", function(req, res) {
   })
 
 
-
+// To Serve Css File
+app.use("/public", express.static(__dirname + "/public"));
 
 
 
